@@ -3,14 +3,11 @@ import Article from './Article';
 
 export default function ArticleList({posts}){
     return(
-        <div>
-            <main>
+        <main>
                 {posts.map (post => (
                     <Article key={post.id} post={post} />
                 ))}
                 
             </main>
-
-        </div>
     )
 }
