@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function Article({title, date, preview}){
+export default function Article({title, date ="December 08, 2020", preview}){
     return(
         <article>
             <h3>{title}</h3>
