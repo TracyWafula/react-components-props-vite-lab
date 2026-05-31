@@ -1,8 +1,8 @@
 import React from 'react';
-export default function About({image,about}){
+export default function About({about}){
     return(
         <aside>
-                <img src={image} alt='https://via.placeholder.com/215' />
+                <img src='https://via.placeholder.com/215' alt='blog logo' />
                 <p> {about} </p>
         </aside>
        
