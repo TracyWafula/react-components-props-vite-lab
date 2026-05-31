@@ -14,7 +14,7 @@ Below is an image of the blogsite.
    ```
 
 ## Component Tree 
--```
+```
 └── App
     ├── Header
     ├── About
